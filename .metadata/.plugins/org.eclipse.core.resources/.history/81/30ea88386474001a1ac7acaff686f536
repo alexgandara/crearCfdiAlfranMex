@@ -101,11 +101,7 @@ public class crearXML {
 	public static String $CONDICIONES_DE_PAGO = "";
 	public static String $TIPO_DE_COMPROBANTE = "";
 	public static String $UUID_NC = "";
-	public static String $UUID_NC02 = "";
-	public static String $UUID_NC03 = "";
-	public static String $UUID_NC04 = "";
-	
-	
+
 	// declaracion de objeto tipo cabecera
 	public static cabecera myCabecera = new cabecera();
 	public static aca myAca = new aca();
@@ -713,22 +709,9 @@ public class crearXML {
 
 				if (myLey[l].get_codLeyenda().equals("1114")) {
 					$UUID_NC = myLey[l].get_desLeyenda();
+
 				}
 
-				
-				if (myLey[l].get_codLeyenda().equals("1115")) {
-					$UUID_NC02 = myLey[l].get_desLeyenda();
-				}
-
-				if (myLey[l].get_codLeyenda().equals("1116")) {
-					$UUID_NC03 = myLey[l].get_desLeyenda();
-				}
-
-				if (myLey[l].get_codLeyenda().equals("1117")) {
-					$UUID_NC04 = myLey[l].get_desLeyenda();
-				}
-
-				
 			}
 
 			$PATH_HASH = misParametros.get_ruta_hash();
@@ -1256,46 +1239,6 @@ public class crearXML {
 			attr_UUID.setValue($UUID_NC);
 			CfdiRelacionado.setAttributeNode(attr_UUID);
 
-			if ($UUID_NC02.trim().length() > 0) {
-				// cfdi:CfdiRelacionado
-				Element CfdiRelacionado02 = document
-						.createElement("cfdi:CfdiRelacionado");
-				CfdiRelacionados.appendChild(CfdiRelacionado02);
-				// UUID
-				Attr attr_UUID02 = document.createAttribute("UUID");
-				attr_UUID02.setValue($UUID_NC02);
-				CfdiRelacionado02.setAttributeNode(attr_UUID02);
-
-				
-			}
-			
-
-			
-			if ($UUID_NC03.trim().length() > 0) {
-				// cfdi:CfdiRelacionado
-				Element CfdiRelacionado03 = document
-						.createElement("cfdi:CfdiRelacionado");
-				CfdiRelacionados.appendChild(CfdiRelacionado03);
-				// UUID
-				Attr attr_UUID03 = document.createAttribute("UUID");
-				attr_UUID03.setValue($UUID_NC03);
-				CfdiRelacionado03.setAttributeNode(attr_UUID03);
-			}
-
-
-			if ($UUID_NC04.trim().length() > 0) {
-				// cfdi:CfdiRelacionado
-				Element CfdiRelacionado04 = document
-						.createElement("cfdi:CfdiRelacionado");
-				CfdiRelacionados.appendChild(CfdiRelacionado04);
-				// UUID
-				Attr attr_UUID04 = document.createAttribute("UUID");
-				attr_UUID04.setValue($UUID_NC04);
-				CfdiRelacionado04.setAttributeNode(attr_UUID04);
-			}
-
-			
-			
 		}
 
 		// cfdi:Emisor
