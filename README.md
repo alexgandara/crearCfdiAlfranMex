@@ -1,3 +1,3 @@
 # crearCfdiAlfranMex
-Libreias para crear el CFDI mex
+Librerias para crear el CFDI mex
 
