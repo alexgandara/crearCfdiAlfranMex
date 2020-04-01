@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.solucionfactible.ws.timbrado.client.Timbrado"/>
+<fullyQualifiedTypeName name="com.solucionfactible.cfdi.ws.timbrado.xsd.CFDIResultadoCertificacion"/>
+<fullyQualifiedTypeName name="java.io.StringWriter"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.security.KeyFactory"/>
+<fullyQualifiedTypeName name="java.security.spec.PKCS8EncodedKeySpec"/>
+<fullyQualifiedTypeName name="java.security.PrivateKey"/>
+<fullyQualifiedTypeName name="java.util.Base64"/>
+<fullyQualifiedTypeName name="org.apache.commons.ssl.Base64"/>
+<fullyQualifiedTypeName name="java.io.ByteArrayOutputStream"/>
+<fullyQualifiedTypeName name="com.solucionfactible.cfdi.ws.timbrado.xsd.CFDICertificacion"/>
+<fullyQualifiedTypeName name="CFDI.base64_Code_Decode"/>
+<fullyQualifiedTypeName name="org.apache.commons.ssl.PKCS8Key"/>
+<fullyQualifiedTypeName name="java.security.Signature"/>
+<fullyQualifiedTypeName name="Decoder.BASE64Encoder"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="com.itextpdf.text.pdf.parser.clipper.Paths"/>
+<fullyQualifiedTypeName name="java.nio.file.Files"/>
+<fullyQualifiedTypeName name="java.nio.file.Paths"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.io.Writer"/>
+<fullyQualifiedTypeName name="javax.xml.soap.Node"/>
+<fullyQualifiedTypeName name="org.w3c.dom.Node"/>
+<fullyQualifiedTypeName name="javax.xml.transform.OutputKeys"/>
+</qualifiedTypeNameHistroy>

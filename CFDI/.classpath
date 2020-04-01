@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/axis.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/commons-discovery-0.2.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/core-3.3.2.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/itext7-pdfa-7.0.1.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/itext7-pdfa-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/itext7-pdfa-7.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/itext7-pdftest-7.0.1.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/itext7-pdftest-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/itext7-pdftest-7.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/itextpdf-5.5.9.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/javax.mail-1.5.6.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/javax.wsdl_1.6.2.v201012040545.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/jaxrpc.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/org.apache.commons.logging_1.1.1.v201101211721.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/org.apache.xml.serializer-2.7.1.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/saaj.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/soap-2.3.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/w3c-dom.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/xmlsec-1.3.0.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/zxing-core-1.7.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/zxing-j2se-1.7.jar"/>
+	<classpathentry kind="lib" path="E:/CFDI/CFDI/utils/ws-timbrado-client-2015-12-09.jar"/>
+	<classpathentry kind="lib" path="C:/java_libs/commons-ssl.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/commons-ssl.jar"/>
+	<classpathentry kind="lib" path="F:/utils/JAVA/LIB/sun.misc.base64decoder.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
